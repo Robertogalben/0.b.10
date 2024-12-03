@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas semanticas</title>
+    <style>
+        *{margin: 0;}
+        header{
+            background-color: lightblue;
+            height: 150px;
+        }
+        nav{
+            text-align: right;
+            background-color: red;
+            color: yellow;
+        }
+        nav li{
+            display: inline-block;
+            padding: 10px;
+        }
+        main{
+            background-color: pink;
+            height: 400px;
+        }
+        section{
+            background-color: lightgreen;
+            width: 60%;
+            float: left;
+            height: 100%;
+        }
+        article{
+            background-color: antiquewhite;
+            height: 50%;
+            
+        }
+        aside{
+            width: 40%;
+            background-color: lightgrey;
+            float: left;
+            height: 100%;
+        }
+        footer{
+            background-color: grey;
+            height: 100px;
+            text-align: center;
+        }
+        nav a{
+            text-decoration: none;
+            color: yellow;
+        }
+        nav a:hover{
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Distribuciones Perez</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">Quienes Somos</a></li>
+            <li><a href="">Tiendas</a></li>
+         </ul>   
+    </nav>
+    <main>
+        <section id="novedades">
+            <article>
+                <h2>Nuevos taladros BOSCH</h2>
+                <p>Han llegado unos nuevos taladros mas nuevos y economiscos</p>
+            </article>
+            <article>
+                <h2>Rebajas en mobiliario   </h2>
+                <p>Este mes obtenga un 20% de descuento en todos los productos</p>
+            </article>
+        </section>
+        <aside>
+            <p>Visite nuestra nueva tienda en Herencia</p>
+        </aside>
+    </main>
+    <footer>
+        <p>(c)Distribuciones Perez</p>
+    </footer>
+</body>
+</html>
